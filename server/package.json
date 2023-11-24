@@ -1,0 +1,15 @@
+{
+  "name": "opdle-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bfl",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "fastify-jwt": "^4.2.0"
+  }
+}
