@@ -1,29 +1,26 @@
-const fastify = require("fastify")();
-const jwt = require("fastify-jwt");
+const fastify = require('fastify')({
+  logger: true
+})
 
-fastify.register(jwt, {
-  secret: "unSecretSuperSecure", // Remplace par une clé secrète réelle et sécurisée
-});
+const GameManager = require('./game_manager/game-manager.js');
 
-fastify.get("/", async (request, reply) => {
-  return { hello: "world" };
-});
+let gameManager = new GameManager();
 
-fastify.get(
-  "/secured",
-  { preHandler: fastify.auth([fastify.verifyJWT]) },
-  async (request, reply) => {
-    return { secured: true };
+// to get data for daily games
+fastify.get('/getDailyOnepiecedle', function (request,reply) {
+  reply.send({daily: gameManager.getDailyOnepiecedle()})})
+
+// to get all the characters for user propositions 
+// TO TEST
+fastify.get('/getAll', function(request,reply) {
+  console.log(request);
+  reply.send({result: gameManager.getAll(request.section)});
+})
+
+// Run the server!
+fastify.listen({ port: 3000 }, function (err, address) {
+  if (err) {
+    fastify.log.error(err)
+    process.exit(1)
   }
-);
-
-const start = async () => {
-  try {
-    await fastify.listen(3000);
-    console.log("Serveur Fastify en cours d'écoute sur le port 3000");
-  } catch (err) {
-    console.error(err);
-    process.exit(1);
-  }
-};
-start();
+})

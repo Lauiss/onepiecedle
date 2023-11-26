@@ -1,0 +1,408 @@
+{
+  "characters": [
+    {
+      "nom": "Monkey D. Luffy",
+      "sexe": "homme",
+      "age": "19",
+      "taille": "1,72 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Loguetown",
+      "emojis": [
+        "🐒",
+        "⛓️",
+        "🍖",
+        "👒"
+      ],
+      "citations": [
+        "Je vais devenir le Roi des Pirates !",
+        "Si tu veux devenir fort, ne crains pas la douleur ni l'effort !",
+        "Les vrais amis risquent leur vie pour protéger les autres."
+      ]
+    },
+    {
+      "nom": "Roronoa Zoro",
+      "sexe": "homme",
+      "age": "21",
+      "taille": "1,81 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Romance Dawn",
+      "emojis": [
+        "⚔️",
+        "🍖",
+        "🏴‍☠️",
+        "🇯🇵"
+      ],
+      "citations": [
+        "Je veux devenir le meilleur escrimeur au monde.",
+        "Rien n'est impossible pour un homme qui ne craint pas la mort.",
+        "Le rôle du second couteau est d'être prêt à se sacrifier."
+      ]
+    },
+    {
+      "nom": "Nami",
+      "sexe": "femme",
+      "age": "20",
+      "taille": "1,70 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Orange Town",
+      "emojis": [
+        "🌪️",
+        "🗺️",
+        "🔍",
+        "💰"
+      ],
+      "citations": [
+        "La carte du monde, c'est ma passion !",
+        "L'argent est la clé de tout.",
+        "Protéger mes amis est ma priorité."
+      ]
+    },
+    {
+      "nom": "Usopp",
+      "sexe": "homme",
+      "age": "19",
+      "taille": "1,74 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Syrup Village",
+      "emojis": [
+        "🏹",
+        "🚢",
+        "🤥",
+        "👓"
+      ],
+      "citations": [
+        "Je suis le guerrier des mers Usopp !",
+        "Les mensonges peuvent aussi être des armes.",
+        "Rien n'est impossible pour un homme qui croit en ses rêves."
+      ]
+    },
+    {
+      "nom": "Sanji",
+      "sexe": "homme",
+      "age": "21",
+      "taille": "1,80 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Baratie",
+      "emojis": [
+        "🍖",
+        "🔥",
+        "🚬",
+        "👟"
+      ],
+      "citations": [
+        "Je ne frappe jamais les femmes, même avec une fleur.",
+        "La cuisine est une expression d'amour.",
+        "Mes jambes sont mes armes les plus puissantes."
+      ]
+    },
+    {
+      "nom": "Tony Tony Chopper",
+      "sexe": "homme",
+      "age": "17",
+      "taille": "0,90 m",
+      "faction": "pirate",
+      "ethnie": "renne-humain",
+      "arc_apparition": "Arc Drum",
+      "emojis": [
+        "🦌",
+        "💊",
+        "🎩",
+        "❤️"
+      ],
+      "citations": [
+        "Je ne suis pas un monstre, je suis un renne-humain !",
+        "La médecine est mon arme.",
+        "La vraie force vient du cœur."
+      ]
+    },
+    {
+      "nom": "Nico Robin",
+      "sexe": "femme",
+      "age": "30",
+      "taille": "1,88 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Alabasta",
+      "emojis": [
+        "📚",
+        "🌸",
+        "🧐",
+        "🔍"
+      ],
+      "citations": [
+        "La connaissance est le trésor ultime.",
+        "Les histoires de l'histoire sont mon obsession.",
+        "Je suis la lumière qui éclaire l'obscurité."
+      ]
+    },
+    {
+      "nom": "Franky",
+      "sexe": "homme",
+      "age": "36",
+      "taille": "2,40 m",
+      "faction": "pirate",
+      "ethnie": "cyborg-humain",
+      "arc_apparition": "Arc Water 7",
+      "emojis": [
+        "🔧",
+        "🚂",
+        "💪",
+        "😎"
+      ],
+      "citations": [
+        "SUUUUPER !",
+        "Les rêves devraient toujours être plus grands que la réalité.",
+        "Le cyborg le plus cool de tous les temps !"
+      ]
+    },
+    {
+      "nom": "Brook",
+      "sexe": "homme",
+      "age": "90 (au moment de sa mort)",
+      "taille": "2,77 m",
+      "faction": "pirate",
+      "ethnie": "squelette-revenant",
+      "arc_apparition": "Arc Thriller Bark",
+      "emojis": [
+        "☠️",
+        "🎻",
+        "🎩",
+        "😄"
+      ],
+      "citations": [
+        "Yohohoho !",
+        "La musique peut toucher l'âme.",
+        "Même dans la mort, je suis vivant !"
+      ]
+    },
+    {
+      "nom": "Jinbe",
+      "sexe": "homme",
+      "age": "44",
+      "taille": "2,18 m",
+      "faction": "pirate",
+      "ethnie": "humain-poisson",
+      "arc_apparition": "Arc Impel Down",
+      "emojis": [
+        "🌊",
+        "🥋",
+        "🍣",
+        "🤝"
+      ],
+      "citations": [
+        "La mer est ma maison.",
+        "La vraie force réside dans la maîtrise de soi.",
+        "Ensemble, nous pouvons surmonter toutes les épreuves."
+      ]
+    },
+    {
+      "nom": "Baggy le Clown",
+      "sexe": "homme",
+      "age": "39",
+      "taille": "2,13 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Romance Dawn",
+      "emojis": [
+        "🤡",
+        "🗡️",
+        "💣",
+        "🎈"
+      ],
+      "citations": [
+        "Rire, c'est la clé du bonheur !",
+        "Un grand clown n'a pas besoin de gloire.",
+        "Mon rêve ? Devenir le roi des pirates... du rire !"
+      ]
+    },
+    {
+      "nom": "Alvida",
+      "sexe": "femme",
+      "age": "24",
+      "taille": "2,13 m (après les effets du Fruit Sube Sube)",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Romance Dawn",
+      "emojis": [
+        "👸",
+        "💄",
+        "🏴‍☠️",
+        "🍎"
+      ],
+      "citations": [
+        "La beauté est la vraie puissance.",
+        "La confiance en soi est la clé du succès.",
+        "Ne sous-estime jamais une femme déterminée."
+      ]
+    },
+    {
+      "nom": "Mohji le Dompteur",
+      "sexe": "homme",
+      "age": "29",
+      "taille": "2,11 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Romance Dawn",
+      "emojis": [
+        "🎩",
+        "🦁",
+        "🔥",
+        "😡"
+      ],
+      "citations": [
+        "Les bêtes sont mes amis les plus fidèles.",
+        "La force brute peut être une stratégie efficace.",
+        "Mon lion Richie est plus fort que n'importe qui !"
+      ]
+    },
+    {
+      "nom": "Cabaji l'Acrobate",
+      "sexe": "homme",
+      "age": "27",
+      "taille": "1,83 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Romance Dawn",
+      "emojis": [
+        "🎭",
+        "🤹‍♂️",
+        "🗡️",
+        "🍷"
+      ],
+      "citations": [
+        "L'acrobatie est la clé du divertissement.",
+        "Mon épée et ma dextérité me rendent invincible.",
+        "La vie est un cirque, et je suis la star !"
+      ]
+    },
+    {
+      "nom": "Richie le Lion",
+      "sexe": "animal",
+      "age": "Inconnu",
+      "taille": "Variable",
+      "faction": "pirate",
+      "ethnie": "lion",
+      "arc_apparition": "Arc Romance Dawn",
+      "emojis": [
+        "🦁",
+        "🔥",
+        "😾",
+        "🌟"
+      ],
+      "citations": [
+        "Rugis, Richie, rugis !",
+        "La force d'un lion est inégalée.",
+        "Les bêtes aussi ont leur place dans l'équipage !"
+      ]
+    },
+    {
+      "nom": "Shanks le Roux",
+      "sexe": "homme",
+      "age": "39",
+      "taille": "1,83 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Romance Dawn",
+      "emojis": [
+        "🤡",
+        "🍺",
+        "🏴‍☠️",
+        "⚔️"
+      ],
+      "citations": [
+        "Le pouvoir ne réside pas dans le bras, mais dans l'esprit.",
+        "Protéger ceux qui te sont chers est la plus grande force.",
+        "Le rire est la clé du bonheur, peu importe les circonstances."
+      ]
+    },
+    {
+      "nom": "Benn Beckman",
+      "sexe": "homme",
+      "age": "40",
+      "taille": "1,95 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Romance Dawn",
+      "emojis": [
+        "🎩",
+        "🔫",
+        "📚",
+        "🧠"
+      ],
+      "citations": [
+        "La connaissance est aussi importante que la force.",
+        "Une arme est aussi utile que l'esprit qui la manie.",
+        "Être calme et intelligent, voilà la vraie force."
+      ]
+    },
+    {
+      "nom": "Yasopp",
+      "sexe": "homme",
+      "age": "38",
+      "taille": "1,88 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Romance Dawn",
+      "emojis": [
+        "🏹",
+        "🌅",
+        "🪖",
+        "👁️‍🗨️"
+      ],
+      "citations": [
+        "La précision est la clé d'un bon tireur d'élite.",
+        "Chaque flèche a une histoire à raconter.",
+        "La patience et la concentration sont les armes d'un vrai tireur d'élite."
+      ]
+    },
+    {
+      "nom": "Lucky Roux",
+      "sexe": "homme",
+      "age": "40",
+      "taille": "2,00 m",
+      "faction": "pirate",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Romance Dawn",
+      "emojis": [
+        "🍔",
+        "🍺",
+        "🏴‍☠️",
+        "🔫"
+      ],
+      "citations": [
+        "La nourriture est la clé du bonheur.",
+        "La bière est la clé de la joie.",
+        "Les armes sont la clé de la victoire."
+      ]
+    },
+    {
+      "nom": "Makino",
+      "sexe": "femme",
+      "age": "39",
+      "taille": "1,70 m",
+      "faction": "civil",
+      "ethnie": "humain",
+      "arc_apparition": "Arc Romance Dawn",
+      "emojis": [
+        "🍺",
+        "🍎",
+        "👩",
+        "👶"
+      ],
+      "citations": [
+        "La bière est la clé de la joie.",
+        "Les pommes sont la clé de la santé.",
+        "Les enfants sont la clé de l'avenir."
+      ]
+    }
+  ],
+  "jollyroger": [
+    {"name": "chapeaux de paille",
+      "img": "string_image"}
+  ]
+}

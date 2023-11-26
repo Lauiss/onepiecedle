@@ -8,6 +8,7 @@
   },
   "author": "bfl",
   "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
     "fastify": "^4.24.3",
     "fastify-jwt": "^4.2.0"
