@@ -1,4 +1,4 @@
-# Onepicedle
+# Onepiecedle
 
 > [!NOTE]
 > We are not affiliate to Shueisha and they aren't sponsoring this project.
