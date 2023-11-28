@@ -5,8 +5,8 @@
 
 
 ## Why Onepiecedle
-We are One piece fans since we are kids.
-With the emergence of other -dle games like [Loldle](https://loldle.net) or [Pokedle](https://pokedle.net), it was an evidence for us to develop a game like this but for one piece !
+We are One piece fans since we were kids.
+With the emergence of other -dle games like [Loldle](https://loldle.net) or [Pokedle](https://pokedle.net), it was an evidence for us to develop a game like this but for One Piece !
 
 
 ## Before using
