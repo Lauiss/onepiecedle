@@ -1,6 +1,8 @@
 <script>
 	import Header from './Header.svelte';
+	import Text from './Text.svelte';
 	import './styles.css';
+    import './fonts.css';
 </script>
 
 <div class="app">
@@ -11,15 +13,15 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<Text size={3}>OnePiecedle - 2023</Text>
 	</footer>
 </div>
 
 <style>
 	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
+		min-height: 100%;
+		display: grid;
+		grid-template-rows: min-content 1fr min-content;
 	}
 
 	main {
@@ -28,7 +30,7 @@
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
-		max-width: 64rem;
+		max-width: 27rem;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
