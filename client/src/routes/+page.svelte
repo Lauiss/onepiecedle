@@ -12,6 +12,12 @@
 	<Paper>
 		<Text size={2}>Classique</Text>
 	</Paper>
+		<Paper>
+		<Text size={2}>Emojis</Text>
+	</Paper>
+		<Paper>
+		<Text size={2}>Fruits du démon</Text>
+	</Paper>
 	<Paper>
 		<Text size={2}>Mode bizzaroïde de fouuuuu</Text>
 	</Paper>
