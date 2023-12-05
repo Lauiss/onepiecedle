@@ -1,5 +1,4 @@
 const datas =  require('./db.json');
-console.log(datas);
 const UtilManager = require('../ressources/utils.js');
 
 class DataManager {
@@ -8,18 +7,16 @@ class DataManager {
         this.util = new UtilManager();
     }
     
-    // @section : correspond à la section du JS ou éventuellement à la table si on passe sur une DB
-    getByName(name,section) {
-        return datas[section].find((character) => { character.name === name});
-    }
-    
-
-    getOne(section) {
-        return datas[section][this.util.getRandomInt(datas[section].length)];
+    getByName(name) {
+        return datas['characters'].find((character) => { character.name === name});
     }
 
-    getAll(section) {
-        return datas[section];
+    getOne() {
+        return datas['characters'][this.util.getRandomInt(datas['characters'].length)];
+    }
+
+    getAll() {
+        return datas['characters'];
     }
 }
 

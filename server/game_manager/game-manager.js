@@ -9,22 +9,30 @@ class GameManager {
         let temp;
 
         for(let i=0; i<3; i++){
-            temp = this.dataManager.getOne('characters');
+            temp = this.dataManager.getOne();
             if((i-1)>=0){
-                if(temp === this.dataManager.getOne('characters')){
-                    temp = this.dataManager.getOne('characters');
+                if(temp === this.dataManager.getOne()){
+                    temp = this.dataManager.getOne();
+                }
+
+                if(temp.size === "" || temp.age === ""){
+                    temp = this.dataManager.getOne();
                 }
             }
             dailyArray.push(temp);
         }
+        let crew = this.dataManager.getOne()
 
-        dailyArray.push(this.dataManager.getOne('jollyroger'));
+        if(!crew?.crew){
+            crew = this.dataManager.getOne();
+        }
+        dailyArray.push(crew.crew);
 
         return dailyArray;
     }
 
-    getAll(section){
-        return this.dataManager.getAll(section);
+    getAll(){
+        return this.dataManager.getAll();
     }
 }
 

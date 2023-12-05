@@ -6,15 +6,13 @@ const GameManager = require('./game_manager/game-manager.js');
 
 let gameManager = new GameManager();
 
-// to get data for daily games
 fastify.get('/getDailyOnepiecedle', function (request,reply) {
   reply.send({daily: gameManager.getDailyOnepiecedle()})})
 
-// to get all the characters for user propositions 
-// TO TEST
+
+//check if anwser is correct frontend
 fastify.get('/getAll', function(request,reply) {
-  console.log(request);
-  reply.send({result: gameManager.getAll(request.section)});
+  reply.send({result: gameManager.getAll()});
 })
 
 // Run the server!
