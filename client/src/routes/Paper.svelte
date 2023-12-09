@@ -18,6 +18,7 @@
         position: relative;
         border: 1px solid #462A1030;
         cursor: pointer;
+        text-align: center;
     }
 
     .paper :global(svg) {
