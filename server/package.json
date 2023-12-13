@@ -13,6 +13,7 @@
     "@fastify/jwt": "^5.0.1",
     "dotenv": "^16.3.1",
     "fastify": "^4.24.3",
-    "fastify-jwt": "^4.2.0"
+    "fastify-jwt": "^4.2.0",
+    "node-cron": "^3.0.0"
   }
 }
